@@ -1,0 +1,25 @@
+{
+  "name": "symbols-navigator",
+  "main": "./lib/symbols-navigator",
+  "version": "0.0.0",
+  "description": "A symbols navigator to explore symbols in the current file",
+  "keywords": [
+    "symbols"
+  ],
+  "repository": "https://github.com/lejsue/symbols-navigator",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "event-kit": "latest",
+    "q": "~1.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}

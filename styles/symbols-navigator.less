@@ -1,0 +1,231 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import "../iconsets/symbol-icons/symbol-icons";
+@import "../iconsets/font-awesome/font-awesome";
+
+.symbols-navigator {
+  padding-left: 5px;
+  padding-right: 10px;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  .symbols-navigator-tree-view {
+    padding-top: 0.5em;
+  }
+}
+
+@symbol-class:    '\e900';
+@symbol-struct:   '\e901';
+@symbol-macro:    '\e906';
+@symbol-typedef:  '\e908';
+@symbol-union:    '\e909';
+@symbol-interface:'\e904';
+@symbol-enum:     '\e902';
+@symbol-variable: '\e90a';
+@symbol-function: '\e903';
+@symbol-namespace:'\e907';
+@symbol-library:  '\e905';
+@symbol-source:   '\e90b';
+
+@symbol-class-color: #E5C17C;
+@symbol-struct-color: #DF6A73;
+@symbol-macro-color: #DF6A73;
+@symbol-typedef-color: #D29B67;
+@symbol-union-color: #a431c4;
+@symbol-interface-color: #b72424;
+@symbol-enum-color: #87400d;
+@symbol-variable-color: #DF6A73;
+@symbol-function-color: #61AEEF;
+@symbol-method-color: @symbol-function-color;
+@symbol-namespace-color: #97C378;
+@symbol-library-color: #57B458;
+@symbol-source-color: #16C024;
+
+.symbol-icon(@name) {
+  font-family: 'symbol-icons';
+  content: @@name;
+}
+
+.symbol-icon-colored(@name) {
+  .symbol-icon(@name);
+  @color: "@{name}-color";
+  color: @@color;
+}
+
+.symbols-navigator {
+  span.icon {
+    -webkit-user-select: none;
+
+    &::before {
+      width: 1.4em;
+    }
+  }
+
+  .icon-function::before {
+    .symbol-icon(symbol-function);
+  }
+
+  .icon-functionVar::before {
+    .symbol-icon(symbol-variable);
+  }
+
+  .icon-globalVar::before {
+    .symbol-icon(symbol-variable);
+  }
+
+  .icon-class::before {
+    .symbol-icon(symbol-class);
+  }
+
+  .icon-namespace::before {
+    .symbol-icon(symbol-namespace);
+  }
+
+  .icon-library::before {
+    .symbol-icon(symbol-library);
+  }
+
+  .icon-source::before {
+    .symbol-icon(symbol-source);
+  }
+
+  .icon-struct::before {
+    .symbol-icon(symbol-struct);
+  }
+
+  .icon-variable::before {
+    .symbol-icon(symbol-variable);
+  }
+
+  .icon-method::before {
+    .symbol-icon(symbol-function);
+  }
+
+  .icon-field::before {
+    .symbol-icon(symbol-variable);
+  }
+
+  .icon-member::before {
+    .symbol-icon(symbol-variable);
+  }
+
+  .icon-interface::before {
+    .symbol-icon(symbol-interface);
+  }
+
+  .icon-enum::before {
+    .symbol-icon(symbol-enum);
+  }
+
+  .icon-typedef::before {
+    .symbol-icon(symbol-typedef);
+  }
+
+  .icon-macro::before {
+    .symbol-icon(symbol-macro);
+  }
+
+  .icon-union::before {
+    .symbol-icon(symbol-union);
+  }
+
+  .icon-function-colored::before {
+    .symbol-icon-colored(symbol-function);
+  }
+
+  .icon-functionVar-colored::before {
+    .symbol-icon-colored(symbol-variable);
+  }
+
+  .icon-globalVar-colored::before {
+    .symbol-icon-colored(symbol-variable);
+  }
+
+  .icon-class-colored::before {
+    .symbol-icon-colored(symbol-class);
+  }
+
+  .icon-namespace-colored::before {
+    .symbol-icon-colored(symbol-namespace);
+  }
+
+  .icon-library-colored::before {
+    .symbol-icon-colored(symbol-library);
+  }
+
+  .icon-source-colored::before {
+    .symbol-icon-colored(symbol-source);
+  }
+
+  .icon-struct-colored::before {
+    .symbol-icon-colored(symbol-struct);
+  }
+
+  .icon-variable-colored::before {
+    .symbol-icon-colored(symbol-variable);
+  }
+
+  .icon-method-colored::before {
+    .symbol-icon-colored(symbol-function);
+  }
+
+  .icon-field-colored::before {
+    .symbol-icon-colored(symbol-variable);
+  }
+
+  .icon-member-colored::before {
+    .symbol-icon-colored(symbol-variable);
+  }
+
+  .icon-interface-colored::before {
+    .symbol-icon-colored(symbol-interface);
+  }
+
+  .icon-enum-colored::before {
+    .symbol-icon-colored(symbol-enum);
+  }
+
+  .icon-typedef-colored::before {
+    .symbol-icon-colored(symbol-typedef);
+  }
+
+  .icon-macro-colored::before {
+    .symbol-icon-colored(symbol-macro);
+  }
+
+  .icon-union-colored::before {
+    .symbol-icon-colored(symbol-union);
+  }
+}
+
+@symbol-access-private: '\f023';
+@symbol-access-protected: '\f084';
+@symbol-access-public:  '\f09c';
+
+@symbol-access-private-color: #b72424;
+@symbol-access-protected-color: #D29B67;
+@symbol-access-public-color: #97C348;
+
+.symbol-access-icon(@name) {
+  font-family: 'FontAwesome';
+  content: @@name;
+  @color: "@{name}-color";
+  color: @@color;
+  margin-right: 0.2em;
+}
+
+.symbols-navigator .icon-private::before {
+  .symbol-access-icon(symbol-access-private);
+}
+
+.symbols-navigator .icon-protected::before {
+  .symbol-access-icon(symbol-access-protected);
+}
+
+.symbols-navigator .icon-public::before {
+  .symbol-access-icon(symbol-access-public);
+}

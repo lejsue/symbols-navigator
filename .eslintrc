@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "arrow-body-style": ["error", "always"],
+    "no-cond-assign": [2, "except-parens"],
+    "no-console": "off",
+    "no-iterator": "off",
+    "no-restricted-syntax": "off",
+    "class-methods-use-this": "off",
+    "no-unused-vars": ["error", { "ignoreRestSiblings": true }]
+  },
+  "globals": {
+    "atom": true
+  }
+}

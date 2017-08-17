@@ -1,0 +1,35 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle symbols-navigator",
+        "command": "symbols-navigator:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "View",
+      "submenu": [
+        {
+          "label": "Toggle Symbols Navigator",
+          "command": "symbols-navigator:toggle"
+        }
+      ]
+    },
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Symbols Navigator",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "symbols-navigator:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
