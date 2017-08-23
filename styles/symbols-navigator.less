@@ -6,18 +6,6 @@
 @import "../iconsets/symbol-icons/symbol-icons";
 @import "../iconsets/font-awesome/font-awesome";
 
-.symbols-navigator {
-  padding-left: 5px;
-  padding-right: 10px;
-  position: relative;
-  overflow-y: auto;
-  overflow-x: hidden;
-
-  .symbols-navigator-tree-view {
-    padding-top: 0.5em;
-  }
-}
-
 @symbol-class:    '\e900';
 @symbol-struct:   '\e901';
 @symbol-macro:    '\e906';
@@ -56,7 +44,34 @@
   color: @@color;
 }
 
+@symbol-access-private: '\f023';
+@symbol-access-protected: '\f084';
+@symbol-access-public:  '\f09c';
+
+@symbol-access-private-color: #b72424;
+@symbol-access-protected-color: #D29B67;
+@symbol-access-public-color: #97C348;
+
+.symbol-access-icon(@name) {
+  font-family: 'FontAwesome';
+  content: @@name;
+  @color: "@{name}-color";
+  color: @@color;
+  display: inline-block;
+  width: 1em;
+}
+
 .symbols-navigator {
+  padding-left: .35em;
+  padding-right: .7em;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  .symbols-navigator-tree-view {
+    padding-top: .5em;
+  }
+
   span.icon {
     -webkit-user-select: none;
 
@@ -200,32 +215,20 @@
   .icon-union-colored::before {
     .symbol-icon-colored(symbol-union);
   }
-}
 
-@symbol-access-private: '\f023';
-@symbol-access-protected: '\f084';
-@symbol-access-public:  '\f09c';
+  .icon-private::before {
+    .symbol-access-icon(symbol-access-private);
+  }
 
-@symbol-access-private-color: #b72424;
-@symbol-access-protected-color: #D29B67;
-@symbol-access-public-color: #97C348;
+  .icon-protected::before {
+    .symbol-access-icon(symbol-access-protected);
+  }
 
-.symbol-access-icon(@name) {
-  font-family: 'FontAwesome';
-  content: @@name;
-  @color: "@{name}-color";
-  color: @@color;
-  margin-right: 0.2em;
-}
+  .icon-public::before {
+    .symbol-access-icon(symbol-access-public);
+  }
 
-.symbols-navigator .icon-private::before {
-  .symbol-access-icon(symbol-access-private);
-}
-
-.symbols-navigator .icon-protected::before {
-  .symbol-access-icon(symbol-access-protected);
-}
-
-.symbols-navigator .icon-public::before {
-  .symbol-access-icon(symbol-access-public);
+  .signature {
+    margin-left: .1em;
+  }
 }
