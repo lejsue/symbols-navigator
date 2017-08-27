@@ -12,7 +12,8 @@
     "no-iterator": "off",
     "no-restricted-syntax": "off",
     "class-methods-use-this": "off",
-    "no-unused-vars": ["error", { "ignoreRestSiblings": true }]
+    "no-unused-vars": ["error", { "ignoreRestSiblings": true }],
+    "import/no-unresolved": ["error", {"ignore": ["atom"] }],
   },
   "globals": {
     "atom": true

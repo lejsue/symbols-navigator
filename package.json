@@ -12,9 +12,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.0.0",
-    "event-kit": "latest",
-    "q": "~1.0.1"
+    "event-kit": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
