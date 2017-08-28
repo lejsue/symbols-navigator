@@ -2,7 +2,7 @@
 
 Symbols navigator for Atom.io, using new universal-ctgas for parsing and adding public/protected/private visibility icons.
 
-This package is fork from [symbols-tree-view](https://atom.io/packages/symbols-tree-view) and [symbols-tree-nav](https://atom.io/nicolashainaux/symbols-tree-nav), but rewritten in Javascript and removed some functions.
+This package is fork from [symbols-tree-view](https://atom.io/packages/symbols-tree-view) and [symbols-tree-nav](https://atom.io/packages/symbols-tree-nav), but rewritten in Javascript and removed some functions.
 
 => *tag-generator.js comes from tag-generator.coffee in [symbols-view](http://github.com/atom/symbols-view).* and *symbols-icon comes from [symbols-tree-view](https://atom.io/packages/symbols-tree-view).*
 
@@ -21,11 +21,11 @@ In Atom 1.17, a new UI component called "docks" are introduced. Symbols Navigato
 ## Settings
 
 * **`Collapsed By Default`** (default=false) If checked then all collapsable elements will be displayed collapsed by default.
-*This implementation comes from [symbols-tree-nav](https://atom.io/nicolashainaux/symbols-tree-nav).*
+*This implementation comes from [symbols-tree-nav](https://atom.io/packages/symbols-tree-nav).*
 * ~~**`Scroll Animation`** (default=true) If checked then when you click the item in symbols-navigator, it will scroll to destination gradually. 
 *This implementation comes from [symbols-tree-view](https://atom.io/packages/symbols-tree-view).*~~
 * **`Show Syntax Icon`** (defalut=true) If checked then syntax icons will be displayed before each element.
-*This implementation comes from [symbols-tree-nav](https://atom.io/nicolashainaux/symbols-tree-nav).*
+*This implementation comes from [symbols-tree-nav](https://atom.io/packages/symbols-tree-nav).*
 * **`Colors For Synatx`** (default=true) If checked then synatx icons will be colorized.
 * **`Can be closed by clicking x`** (default=false) If checked then symbols-navigator can be closed by clicking the x on the tab.
 * **`Auto Reveal On Start`** (default=false) If checked then symbols-navigator will auto reveal on start-up.
@@ -34,7 +34,7 @@ In Atom 1.17, a new UI component called "docks" are introduced. Symbols Navigato
 * **`Auto Hide Types`** You can specify a list of types that will be hidden by default.
 *This implementation comes from [symbols-tree-view](https://atom.io/packages/symbols-tree-view).*
 * **`Alternative Ctags Binary`** You can specify a path to a binary to use for ctags instead of the original one in symbols-navigator.
-*This implementation comes from [symbols-tree-nav](https://atom.io/nicolashainaux/symbols-tree-nav).*
+*This implementation comes from [symbols-tree-nav](https://atom.io/packages/symbols-tree-nav).*
 
 ## Supported commands
 
