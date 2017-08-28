@@ -22,12 +22,13 @@ In Atom 1.17, a new UI component called "docks" are introduced. Symbols Navigato
 
 * **`Collapsed By Default`** (default=false) If checked then all collapsable elements will be displayed collapsed by default.
 *This implementation comes from [symbols-tree-nav](https://atom.io/nicolashainaux/symbols-tree-nav).*
-* **`Scroll Animation`** (default=true) If checked then when you click the item in symbols-navigator, it will scroll to destination gradually. 
-*This implementation comes from [symbols-tree-view](https://atom.io/packages/symbols-tree-view).*
+* ~~**`Scroll Animation`** (default=true) If checked then when you click the item in symbols-navigator, it will scroll to destination gradually. 
+*This implementation comes from [symbols-tree-view](https://atom.io/packages/symbols-tree-view).*~~
 * **`Show Syntax Icon`** (defalut=true) If checked then syntax icons will be displayed before each element.
 *This implementation comes from [symbols-tree-nav](https://atom.io/nicolashainaux/symbols-tree-nav).*
 * **`Colors For Synatx`** (default=true) If checked then synatx icons will be colorized.
 * **`Can be closed by clicking x`** (default=false) If checked then symbols-navigator can be closed by clicking the x on the tab.
+* **`Auto Reveal On Start`** (default=false) If checked then symbols-navigator will auto reveal on start-up.
 * **`Position`** (defalut=Left) Defalut position the symbols-navigator appear. Possible options: Right, Left.
 * **`Sort By`** (defalut=Symbol Name) The rule symbols will be sorted by. Possible options: Symbol Name, Source Row.
 * **`Auto Hide Types`** You can specify a list of types that will be hidden by default.
@@ -49,6 +50,21 @@ Please find it in [version.txt](https://github.com/lejsue/symbols-navigator/blob
 I'm a PHP developer, and have made the switch from Netbeans to Atom. I'm trying to make the behavior of this Symbols Navigator as close as possible. I'll list some good features for improvement.
 
 Any suggestions, forks and commits are highly appreciated!
+
+* Fix the problem of tag geneator. Example code in JavaScript:
+```
+class A {
+  AB() {
+    function ABC() {}
+  }
+}
+clas B {
+  AB() {
+    function ABC() {}
+  }
+}
+  
+```
 
 ## License
 
