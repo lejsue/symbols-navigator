@@ -1,3 +1,7 @@
+## Unpublished
+* Fix [Issue #1](https://github.com/lejsue/symbols-navigator/issues/1), add executable permission to universal-ctags-darwin and universal-ctags-linux
+* Fix [Issue #2](https://github.com/lejsue/symbols-navigator/issues/2), call promise.then instead of promise.done
+
 ## 1.0.0
 Major:
 * Remove deprecated dependencies: atom-space-pen-views, q
