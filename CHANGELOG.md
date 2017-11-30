@@ -1,3 +1,7 @@
+## 1.0.2
+* Fix [Issue #4](https://github.com/lejsue/symbols-navigator/issues/4), add the missing function.
+* Fix [Issue #5](https://github.com/lejsue/symbols-navigator/issues/5), add the option for single-click or double-click to move cursor to the symbol.
+
 ## 1.0.1
 * Fix [Issue #1](https://github.com/lejsue/symbols-navigator/issues/1), add executable permission to universal-ctags-darwin and universal-ctags-linux
 * Fix [Issue #2](https://github.com/lejsue/symbols-navigator/issues/2), call promise.then instead of promise.done
