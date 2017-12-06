@@ -3,5 +3,8 @@
     "ctrl-alt-o": "symbols-navigator:toggle"
   },
   "atom-workspace[mini]": {
+  },
+  ".symbols-navigator": {
+    "enter": "symbols-navigator:move-to-selected-symbol"
   }
 }
