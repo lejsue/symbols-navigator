@@ -1,3 +1,9 @@
+## 1.2.1
+* Support page-up/page-down/top/bottom keyboard event.
+
+## 1.2.0
+* Support up/down/left/right/enter keyboard event.
+
 ## 1.1.0
 * Fix [Issue #4](https://github.com/lejsue/symbols-navigator/issues/4), add the missing function.
 * Fix [Issue #6](https://github.com/lejsue/symbols-navigator/issues/6), add the option for single-click or double-click to move cursor to the symbol.
