@@ -1,3 +1,6 @@
+## 1.3.0
+* Support to show current symbol on status bar.
+
 ## 1.2.1
 * Support page-up/page-down/top/bottom keyboard event.
 
