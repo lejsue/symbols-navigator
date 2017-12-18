@@ -36,6 +36,7 @@ In Atom 1.17, a new UI component called "docks" are introduced. Symbols Navigato
 * **`Alternative Ctags Binary`** You can specify a path to a binary to use for ctags instead of the original one in symbols-navigator.
 *This implementation comes from [symbols-tree-nav](https://atom.io/packages/symbols-tree-nav).*
 * **`Click Type`** (default=Double Click) You can specify which clicking event to trigger moving cursor to the symbol.
+* **`Show Current Symbol On Status Bar`** (default=false) If checked then symbols-navigator will show current symbol on status bar.
 
 ## Supported commands
 
