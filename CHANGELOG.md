@@ -5,12 +5,14 @@
 * Fix [Issue #8](https://github.com/lejsue/symbols-navigator/issues/8).
 
 ## 1.3.0
+Major:
 * Support to show current symbol on status bar.
 
 ## 1.2.1
 * Support page-up/page-down/top/bottom keyboard event.
 
 ## 1.2.0
+Major:
 * Support up/down/left/right/enter keyboard event.
 
 ## 1.1.0
