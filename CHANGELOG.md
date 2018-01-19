@@ -1,3 +1,6 @@
+## 1.3.2
+* Add new config parameter: showAccessIcons (contributed by tweakimp)
+
 ## 1.3.1
 * Fix [Issue #8](https://github.com/lejsue/symbols-navigator/issues/8).
 
