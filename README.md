@@ -24,6 +24,7 @@ In Atom 1.17, a new UI component called "docks" are introduced. Symbols Navigato
 *This implementation comes from [symbols-tree-nav](https://atom.io/packages/symbols-tree-nav).*
 * ~~**`Scroll Animation`** (default=true) If checked then when you click the item in symbols-navigator, it will scroll to destination gradually. 
 *This implementation comes from [symbols-tree-view](https://atom.io/packages/symbols-tree-view).*~~
+* **`Show Access Icons`** (defalut=true) If checked then access icons will be displayed before each element. (contributed by tweakimp)
 * **`Show Syntax Icon`** (defalut=true) If checked then syntax icons will be displayed before each element.
 *This implementation comes from [symbols-tree-nav](https://atom.io/packages/symbols-tree-nav).*
 * **`Colors For Synatx`** (default=true) If checked then synatx icons will be colorized.
