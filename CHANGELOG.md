@@ -1,3 +1,8 @@
+## 1.5.0
+* Add new config parameter: scrollType, contributed by XaverKlemenschits.
+* Fix [Issue #18](https://github.com/lejsue/symbols-navigator/issue/18), contributed by XaverKlemenschits.
+* Added callback to populate symbols tree view when new file is opened,  contributed by XaverKlemenschits.
+
 ## 1.4.0
 * Add new config parameter: showAccessIcons (contributed by tweakimp)
 
