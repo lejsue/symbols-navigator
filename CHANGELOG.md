@@ -1,3 +1,6 @@
+## 1.5.1
+* Fix [Issue #20](https://github.com/lejsue/symbols-navigator/issue/20)
+
 ## 1.5.0
 * Add new config parameter: scrollType, contributed by XaverKlemenschits.
 * Fix [Issue #18](https://github.com/lejsue/symbols-navigator/issue/18), contributed by XaverKlemenschits.
