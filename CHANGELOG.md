@@ -1,3 +1,7 @@
+## 1.5.2
+* Fix [Issue #25](https://github.com/lejsue/symbols-navigator/issue/25)
+* Update Universal-Ctags to version 2258b24b
+
 ## 1.5.1
 * Fix [Issue #20](https://github.com/lejsue/symbols-navigator/issue/20)
 
