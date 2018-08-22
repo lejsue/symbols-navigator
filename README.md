@@ -22,7 +22,7 @@ In Atom 1.17, a new UI component called "docks" are introduced. Symbols Navigato
 
 * **`Collapsed By Default`** (default=false) If checked then all collapsable elements will be displayed collapsed by default.
 *This implementation comes from [symbols-tree-nav](https://atom.io/packages/symbols-tree-nav).*
-* ~~**`Scroll Animation`** (default=true) If checked then when you click the item in symbols-navigator, it will scroll to destination gradually. 
+* ~~**`Scroll Animation`** (default=true) If checked then when you click the item in symbols-navigator, it will scroll to destination gradually.
 *This implementation comes from [symbols-tree-view](https://atom.io/packages/symbols-tree-view).*~~
 * **`Show Access Icons`** (defalut=true) If checked then access icons will be displayed before each element. (contributed by tweakimp)
 * **`Show Syntax Icon`** (defalut=true) If checked then syntax icons will be displayed before each element.
@@ -30,7 +30,7 @@ In Atom 1.17, a new UI component called "docks" are introduced. Symbols Navigato
 * **`Colors For Synatx`** (default=true) If checked then synatx icons will be colorized.
 * **`Can be closed by clicking x`** (default=false) If checked then symbols-navigator can be closed by clicking the x on the tab.
 * **`Auto Reveal On Start`** (default=false) If checked then symbols-navigator will auto reveal on start-up.
-* **`Position`** (defalut=Left) Defalut position the symbols-navigator appear. Possible options: Right, Left.
+* **`Position`** (defalut=Left) Defalut position the symbols-navigator appear. Possible options: Right, Left, Hidden. If you choose Hidden, the symbols-navigator tree tab will not be shown.
 * **`Sort By`** (defalut=Symbol Name) The rule symbols will be sorted by. Possible options: Symbol Name, Source Row.
 * **`Auto Hide Types`** You can specify a list of types that will be hidden by default.
 *This implementation comes from [symbols-tree-view](https://atom.io/packages/symbols-tree-view).*
@@ -67,7 +67,7 @@ clas B {
     function ABC() {}
   }
 }
-  
+
 ```
 
 ## License
