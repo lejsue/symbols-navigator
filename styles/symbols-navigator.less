@@ -18,6 +18,7 @@
 @symbol-namespace:'\e907';
 @symbol-library:  '\e905';
 @symbol-source:   '\e90b';
+@symbol-unknow:   '\f128';
 
 @symbol-class-color: #E5C17C;
 @symbol-struct-color: #DF6A73;
@@ -32,6 +33,7 @@
 @symbol-namespace-color: #97C378;
 @symbol-library-color: #57B458;
 @symbol-source-color: #16C024;
+@symbol-unknow-color: #DC143C;
 
 .symbol-icon(@name) {
   font-family: 'symbol-icons';
@@ -40,6 +42,19 @@
 
 .symbol-icon-colored(@name) {
   .symbol-icon(@name);
+  @color: "@{name}-color";
+  color: @@color;
+}
+
+.symbol-icon-fontawesome(@name) {
+  font-family: 'FontAwesome';
+  content: @@name;
+  font-size: 1.4em;
+  width: 1em !important;
+}
+
+.symbol-icon-fontawesome-colored(@name) {
+  .symbol-icon-fontawesome(@name);
   @color: "@{name}-color";
   color: @@color;
 }
@@ -148,6 +163,10 @@
     .symbol-icon(symbol-union);
   }
 
+  .icon-unknown::before {
+    .symbol-icon-fontawesome(symbol-unknow);
+  }
+
   .icon-function-colored::before {
     .symbol-icon-colored(symbol-function);
   }
@@ -214,6 +233,10 @@
 
   .icon-union-colored::before {
     .symbol-icon-colored(symbol-union);
+  }
+
+  .icon-unknown-colored::before {
+    .symbol-icon-fontawesome-colored(symbol-unknow);
   }
 
   .icon-private::before {
