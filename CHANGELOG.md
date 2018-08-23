@@ -1,6 +1,7 @@
 ## 1.7.0
-* Add new option Hidden to Position config parameter. It can be use to hide the symbols-navigator tab.
-* Add new icon for unknown kind.
+* Add new option Hidden to Position config parameter. It can be use to hide the symbols-navigator tab. [Issue #12](https://github.com/lejsue/symbols-navigator/issue/12)
+* Add new icon for unknown kind. [Issue #11](https://github.com/lejsue/symbols-navigator/issue/11)
+* Fix [Issue #13](https://github.com/lejsue/symbols-navigator/issue/13)
 
 ## 1.6.0
 * Fix [Issue #25](https://github.com/lejsue/symbols-navigator/issue/25)
