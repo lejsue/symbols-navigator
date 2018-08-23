@@ -55,7 +55,7 @@ I'm a PHP developer, and have made the switch from Netbeans to Atom. I'm trying 
 
 Any suggestions, forks and commits are highly appreciated!
 
-* Fix the problem of tag geneator. Example code in JavaScript:
+* ~~Fix the problem of tag geneator. Example code in JavaScript:~~
 ```
 class A {
   AB() {
@@ -69,6 +69,7 @@ clas B {
 }
 
 ```
+This problem seems to be due to the default setting in Universal-Ctags(https://github.com/universal-ctags/ctags/blob/master/parsers/jscript.c#L346), not easy to fix in symbols-navigator.
 
 ## License
 
