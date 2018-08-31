@@ -1,7 +1,7 @@
 {
   "name": "symbols-navigator",
   "main": "./lib/symbols-navigator",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "A symbols navigator to explore symbols in the current file",
   "keywords": [
     "symbols"
