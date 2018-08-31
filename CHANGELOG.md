@@ -1,3 +1,6 @@
+## 1.8.1
+* Patch a new version to fix the unknow problem to publish it to atom.io.
+
 ## 1.8.0
 * Add new config parameter: collapseClick, contributed by XaverKlemenschits.
 
