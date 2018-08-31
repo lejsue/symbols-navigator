@@ -1,3 +1,6 @@
+## 1.8.0
+* Add new config parameter: collapseClick, contributed by XaverKlemenschits.
+
 ## 1.7.0
 * Add new option Hidden to Position config parameter. It can be use to hide the symbols-navigator tab. [Issue #12](https://github.com/lejsue/symbols-navigator/issues/12)
 * Add new icon for unknown kind. [Issue #11](https://github.com/lejsue/symbols-navigator/issues/11)
