@@ -30,7 +30,7 @@ In Atom 1.17, a new UI component called "docks" are introduced. Symbols Navigato
 * **`Colors For Synatx`** (default=true) If checked then synatx icons will be colorized.
 * **`Can be closed by clicking x`** (default=false) If checked then symbols-navigator can be closed by clicking the x on the tab.
 * **`Auto Reveal On Start`** (default=false) If checked then symbols-navigator will auto reveal on start-up.
-* **`Position`** (defalut=Left) Defalut position the symbols-navigator appear. Possible options: Right, Left.
+* **`Position`** (defalut=Left) Defalut position the symbols-navigator appear. Possible options: Right, Left, Hidden. If you choose Hidden, the symbols-navigator tree tab will not be shown.
 * **`Sort By`** (defalut=Symbol Name) The rule symbols will be sorted by. Possible options: Symbol Name, Source Row.
 * **`Auto Hide Types`** You can specify a list of types that will be hidden by default.
 *This implementation comes from [symbols-tree-view](https://atom.io/packages/symbols-tree-view).*
@@ -38,7 +38,7 @@ In Atom 1.17, a new UI component called "docks" are introduced. Symbols Navigato
 *This implementation comes from [symbols-tree-nav](https://atom.io/packages/symbols-tree-nav).*
 * **`Click Type`** (default=Double Click) You can specify which clicking event to trigger moving cursor to the symbol.
 * **`Collapse Click Type`** (default=Go to symbol) 'Choose if the cursor should move to the symbol if a collapsible item is clicked, or the item collapsed. Clicking on the arrow next to the item will always collapse the item.
-* **`Scroll Type`** (default=Quickest) Specifies how the editor will scroll to show the symbol at a specific location in the editor. i.e.: Top means the symbol will be shown on the top of the editor window. Possible options: Quickest, Top, Center, Bottom
+* **`Scroll Type`** (default=Quickest) Specifies how the editor will scroll to show the symbol at a specific location in the editor. i.e.: Top means the symbol will be shown on the top of the editor window. Possible options: Quickest, Top, Center, Bottom. (contributed by XaverKlemenschits)
 * **`Show Current Symbol On Status Bar`** (default=false) If checked then symbols-navigator will show current symbol on status bar.
 
 ## Supported commands
@@ -56,7 +56,7 @@ I'm a PHP developer, and have made the switch from Netbeans to Atom. I'm trying 
 
 Any suggestions, forks and commits are highly appreciated!
 
-* Fix the problem of tag geneator. Example code in JavaScript:
+* ~~Fix the problem of tag geneator. Example code in JavaScript:~~
 ```
 class A {
   AB() {
@@ -70,6 +70,7 @@ clas B {
 }
 
 ```
+This problem seems to be due to the default setting in Universal-Ctags(https://github.com/universal-ctags/ctags/blob/master/parsers/jscript.c#L346), not easy to fix in symbols-navigator.
 
 ## License
 

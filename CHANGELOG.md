@@ -1,10 +1,19 @@
+## 1.7.0
+* Add new option Hidden to Position config parameter. It can be use to hide the symbols-navigator tab. [Issue #12](https://github.com/lejsue/symbols-navigator/issues/12)
+* Add new icon for unknown kind. [Issue #11](https://github.com/lejsue/symbols-navigator/issues/11)
+* Fix [Issue #13](https://github.com/lejsue/symbols-navigator/issues/13)
+
+## 1.6.0
+* Fix [Issue #25](https://github.com/lejsue/symbols-navigator/issues/25)
+* Update Universal-Ctags to version 2258b24b
+
 ## 1.5.1
-* Fix [Issue #20](https://github.com/lejsue/symbols-navigator/issue/20)
+* Fix [Issue #20](https://github.com/lejsue/symbols-navigator/issues/20)
 
 ## 1.5.0
 * Add new config parameter: scrollType, contributed by XaverKlemenschits.
-* Fix [Issue #18](https://github.com/lejsue/symbols-navigator/issue/18), contributed by XaverKlemenschits.
-* Added callback to populate symbols tree view when new file is opened,  contributed by XaverKlemenschits.
+* Fix [Issue #18](https://github.com/lejsue/symbols-navigator/issues/18), contributed by XaverKlemenschits.
+* Add callback to populate symbols tree view when new file is opened,  contributed by XaverKlemenschits.
 
 ## 1.4.0
 * Add new config parameter: showAccessIcons (contributed by tweakimp)
