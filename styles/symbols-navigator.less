@@ -14,6 +14,7 @@
 @symbol-interface:'\e904';
 @symbol-enum:     '\e902';
 @symbol-variable: '\e90a';
+@symbol-constant: '\e90a';
 @symbol-function: '\e903';
 @symbol-namespace:'\e907';
 @symbol-library:  '\e905';
@@ -28,6 +29,7 @@
 @symbol-interface-color: #b72424;
 @symbol-enum-color: #87400d;
 @symbol-variable-color: #DF6A73;
+@symbol-constant-color: #BC4EBA;
 @symbol-function-color: #61AEEF;
 @symbol-method-color: @symbol-function-color;
 @symbol-namespace-color: #97C378;
@@ -131,6 +133,10 @@
     .symbol-icon(symbol-variable);
   }
 
+  .icon-constant::before {
+    .symbol-icon(symbol-constant);
+  }
+
   .icon-method::before {
     .symbol-icon(symbol-function);
   }
@@ -201,6 +207,10 @@
 
   .icon-variable-colored::before {
     .symbol-icon-colored(symbol-variable);
+  }
+
+  .icon-constant-colored::before {
+    .symbol-icon-colored(symbol-constant);
   }
 
   .icon-method-colored::before {
