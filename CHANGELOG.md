@@ -1,3 +1,7 @@
+## 1.9.0
+* Add support of Shell tag generation, contributed by Zelnes.
+* Add the support of constant 'kind' for javascript, contributed by Zelnes.
+
 ## 1.8.1
 * Patch a new version to fix the unknow problem to publish it to atom.io.
 
