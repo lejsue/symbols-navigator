@@ -1,3 +1,6 @@
+## 1.10.0
+* Fix [Issue #29](https://github.com/lejsue/symbols-navigator/issues/29)
+
 ## 1.9.0
 * Add support of Shell tag generation, contributed by Zelnes.
 * Add the support of constant 'kind' for javascript, contributed by Zelnes.
