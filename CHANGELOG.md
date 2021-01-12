@@ -1,5 +1,5 @@
 ## 1.10.0
-* Fix [Issue #29](https://github.com/lejsue/symbols-navigator/issues/29)
+* Fix [Issue #29](https://github.com/lejsue/symbols-navigator/issues/29), contributed by j2bbayle
 
 ## 1.9.0
 * Add support of Shell tag generation, contributed by Zelnes.
